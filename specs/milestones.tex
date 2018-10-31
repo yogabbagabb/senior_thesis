@@ -1,0 +1,116 @@
+%        File: milestones.tex
+%     Created: Mon Oct 29 09:00 PM 2018 C
+% Last Change: Mon Oct 29 09:00 PM 2018 C
+%
+\documentclass[a4paper]{article}
+
+\usepackage{bookman}
+
+\usepackage{preamble}
+\usepackage{374_preamble}
+\begin{document}
+
+\section{Project Summary:}
+
+Electricity retail prices are not fixed in the US; at some points in time, they are cheaper than at other times. We want to engineer any home appliance to autonomously turn on when the retail price of electricity is cheapest. This requires us
+to make a model that accurately predicts prices or that accurately classifies a single time, out of $n$ times, as being the time when
+the retail rate is cheapest. We also need a pipeline that automates a progression:
+
+\begin{outline}
+    \1 User tells an Alexa to turn on an appliance with some parameters $I$ (e.g. what appliance mode to use and with what urgency (now or before time $t$)).
+    \1 Alexa sends $I$ to a sub-pipeline that:
+    \2 Decides the time $t$ to run the appliance if not immediately (the model)
+    \2 Sends time $(t,I)$ to an agent that, in turn, instructs an embedded system (in some appliance) to turn on at $t$ using state represented by $I$.
+\end{outline}
+
+Concretely, this sub-pipeline is built using several technologies offered by Amazon AWS. In particular, these include: AWS Lambda, AWS DynamoDB, AWS Sagemaker,
+AWS Cloudwatch and AWS Pipeline.
+
+\begin{remark}
+     Many of the modules to perform these tasks have been made by prior students working with Professor Sowers; they have not been tested comprehensively, documented
+     or tested jointly with other modules (ie, in an integrated manner). These modules are not scalable: they only allow one user to turn on one appliance; ideally, we want a user to turn on any number of appliances belonging
+     to her, and we want any number of users to be capable of doing this. Some of them also use bad coding practice (e.g. pyramid of doom in javascript). \\
+
+     In this regard, my senior thesis is about software development.
+\end{remark}
+
+\begin{remark}
+    There are 5 active domains in which model development for EPF (electricity price forecasting takes place). These include artificial intelligience, time series analysis, economics-based models,
+    game-theoretic models and stochastic models. A graduate student working on this project has explored AI models. \\
+
+    I know little about this project's model development and need to learn more. \\
+
+    In this regard, my senior thesis is also about model development. \\
+\end{remark}
+
+\section{Milestones}
+
+These milestones are listed in reverse chronological order from $2019$ to November $2018$:
+
+\begin{outline}
+    \1 December 2019
+    \2 Finish a 3rd Draft of the thesis and present it.
+    \1 November 2019
+    \2 Finish a 1st Draft of the thesis 
+    \2 Finish a 2nd Draft of the thesis 
+    \1 October 2019
+    \2 Buffer 
+    \1 September 2019
+    \2 Learn and try $10$ different models in domain $C$.
+    \1 August 2019
+    \2 Learn and try $10$ different models in domain $C$.
+    \1 July 2019
+    \2 Buffer
+    \1 June 2019
+    \2 Learn and try $5$ different models in domain $B$.
+    \2 Run fully integrated tests, having included the UI developed in May.
+    \1 May 2019
+    \2 Learn and try $5$ different models in domain $B$.
+    \2 Develop or extend a UI that allows a user to add an appliance.
+    \2 Run fully integrated tests on the existing infrastructure.
+    \1 April 2019
+    \2 Learn and try $5$ different models in domain $A$.
+    \1 March 2019
+    \2 Build a pipeline incorporating AWS SageMaker
+    \1 February 2019
+    \2 Finish developing tests for all components.
+    \2 Finish documentation for all components.
+    \2 Finish developing a pipeline $\smallsetminus \{\text{Sagemaker}\}$
+    \2 Have a technical report of the differences between prediction models based in machine learning and prediction models based in time series analysis.
+    \1 January 2019
+    \2 Buffer
+    \1 December 2018
+    \2 Document half of the repository code.
+    \2 Devise a local workflow for the development of the Alexa UI.
+    \2 Refactor and test a function called RBS\_Lambda.
+    \2 Have a technical report of the prediction models tried by the group up until now.
+    \1 November 2018
+    \2 Devise a local workflow for AWS lambda.. At present, we use AWS's interface for most of our programming. We need a local workflow to
+    streamline testing and development.
+    \2 Refactor and test a function called RBS\_argmin.
+    \2 Refactor and test a function called RBS\_server.
+    \2 Refactor and test a function called RBS\_Alexa
+\end{outline}
+
+
+\section{Current Progress}
+
+In what follows, I use the word ``we'' intentionally: I am working with another student who is working on this project as an Independent Study project.
+
+\begin{outline}
+    \1 Previous students working with Professor Sowers devised a way to turn on a dishwasher remotely. The infrastructure to turn it on began to
+    rot after these students left, because the infrastructure was not maintained. We revived the infrastructure and can remotely turn on the dishwasher at will.
+    \1 We scaled the codebase to allow a single user to turn on multiple appliances remotely. This has not been tested at scale, however.
+    \1 We began documenting the codebase. This is a software project; for the sanity of its developers and future contributors, it needs clear documentation.
+    \1 At present, I am working to develop a local workflow for this project. Ideally, instead of programming in the AWS console, we should be able to develop locally on our personal
+    machines and export whatever we write to AWS. This will allow parallel development between my partner and me; we can also use version control with this function, thereafter.
+\end{outline}
+
+
+    
+
+\end{document}
+
+
+
+
