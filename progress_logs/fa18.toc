@@ -1,0 +1,12 @@
+\contentsline {section}{\numberline {1}Opening Remarks}{1}{section.1}
+\contentsline {section}{\numberline {2}Background Phenomena (and some buzzwords)}{1}{section.2}
+\contentsline {subsection}{\numberline {2.1}IoT}{1}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Serverless Computing}{1}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Varying Retail Price of Electricity}{2}{subsection.2.3}
+\contentsline {section}{\numberline {3}Thesis Summary (Planned Intellectual Contribution)}{3}{section.3}
+\contentsline {section}{\numberline {4}Progress}{4}{section.4}
+\contentsline {subsection}{\numberline {4.1}September}{4}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}October}{4}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}November and December}{4}{subsection.4.3}
+\contentsline {section}{\numberline {5}Future Work}{5}{section.5}
+\contentsline {subsection}{\numberline {5.1}Relationship between Current Progress and Future Work}{6}{subsection.5.1}

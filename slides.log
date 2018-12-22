@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  20 DEC 2018 12:15
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  20 DEC 2018 13:35
  restricted system commands enabled.
 **slides.tex
 (./slides.tex
@@ -35,7 +35,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.325 seconds
+luaotfload | main : initialization completed in 0.282 seconds
 Babel <3.10> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2017/01/23 v3.41 A class for typesetting presentations
@@ -1333,92 +1333,114 @@ Overfull \hbox (56.89404pt too wide) in paragraph at lines 177--177
 [34
 
 <./pictures/architecture.png>]
-<pictures/september.png, id=940, 257.96375pt x 238.8925pt>
+File: pictures/architecture.png Graphic file (type png)
+ <use pictures/architecture.png>
+Package luatex.def Info: pictures/architecture.png used on input line 188.
+(luatex.def)             Requested size: 230.2189pt x 136.564pt.
+ [35
+
+]
+File: pictures/architecture.png Graphic file (type png)
+
+<use pictures/architecture.png>
+Package luatex.def Info: pictures/architecture.png used on input line 188.
+(luatex.def)             Requested size: 230.2189pt x 136.564pt.
+ [36
+
+]
+File: pictures/architecture.png Graphic file (type png)
+ <use pictures/architecture.png>
+Package luatex.def Info: pictures/architecture.png used on input line 188.
+(luatex.def)             Requested size: 230.2189pt x 136.564pt.
+ [37
+
+]
+File: pictures/architecture.png Graphic file (type png)
+
+<use pictures/architecture.png>
+Package luatex.def Info: pictures/architecture.png used on input line 188.
+(luatex.def)             Requested size: 230.2189pt x 136.564pt.
+ [38
+
+]
+<pictures/september.png, id=1045, 257.96375pt x 238.8925pt>
 File: pictures/september.png Graphic file (type png)
 
 <use pictures/september.png>
-Package luatex.def Info: pictures/september.png used on input line 191.
+Package luatex.def Info: pictures/september.png used on input line 202.
 (luatex.def)             Requested size: 147.47383pt x 136.5711pt.
- [35
+ [39
 
 <./pictures/september.png>]
 File: pictures/september.png Graphic file (type png)
 
 <use pictures/september.png>
-Package luatex.def Info: pictures/september.png used on input line 191.
+Package luatex.def Info: pictures/september.png used on input line 202.
 (luatex.def)             Requested size: 147.47383pt x 136.5711pt.
- [36
+ [40
 
 ]
 File: pictures/september.png Graphic file (type png)
  <use pictures/september.png>
-Package luatex.def Info: pictures/september.png used on input line 191.
+Package luatex.def Info: pictures/september.png used on input line 202.
 (luatex.def)             Requested size: 147.47383pt x 136.5711pt.
- [37
+ [41
 
 ]
 File: pictures/september.png Graphic file (type png)
 
 <use pictures/september.png>
-Package luatex.def Info: pictures/september.png used on input line 191.
+Package luatex.def Info: pictures/september.png used on input line 202.
 (luatex.def)             Requested size: 147.47383pt x 136.5711pt.
- [38
+ [42
 
 ]
-<pictures/october.png, id=1047, 242.9075pt x 227.85126pt>
+<pictures/october.png, id=1153, 242.9075pt x 227.85126pt>
 File: pictures/october.png Graphic file (type png)
 
 <use pictures/october.png>
-Package luatex.def Info: pictures/october.png used on input line 202.
+Package luatex.def Info: pictures/october.png used on input line 213.
 (luatex.def)             Requested size: 145.60106pt x 136.5762pt.
- [39
+ [43
 
 <./pictures/october.png>]
 File: pictures/october.png Graphic file (type png)
 
 <use pictures/october.png>
-Package luatex.def Info: pictures/october.png used on input line 202.
+Package luatex.def Info: pictures/october.png used on input line 213.
 (luatex.def)             Requested size: 145.60106pt x 136.5762pt.
- [40
+ [44
 
 ]
 File: pictures/architecture.png Graphic file (type png)
  <use pictures/architecture.png>
-Package luatex.def Info: pictures/architecture.png used on input line 206.
+Package luatex.def Info: pictures/architecture.png used on input line 217.
 (luatex.def)             Requested size: 364.18391pt x 216.03098pt.
 
-Overfull \hbox (56.89404pt too wide) in paragraph at lines 206--206
+Overfull \hbox (56.89404pt too wide) in paragraph at lines 217--217
 [][]  
  []
 
-[41
-
-]
-File: pictures/october.png Graphic file (type png)
- <use pictures/october.png>
-Package luatex.def Info: pictures/october.png used on input line 218.
-(luatex.def)             Requested size: 145.60106pt x 136.5762pt.
- [42
-
-]
-File: pictures/october.png Graphic file (type png)
- <use pictures/october.png>
-Package luatex.def Info: pictures/october.png used on input line 218.
-(luatex.def)             Requested size: 145.60106pt x 136.5762pt.
- [43
-
-] [44
-
-]
 [45
 
-] [46
+]
+File: pictures/october.png Graphic file (type png)
+ <use pictures/october.png>
+Package luatex.def Info: pictures/october.png used on input line 230.
+(luatex.def)             Requested size: 145.60106pt x 136.5762pt.
+ [46
 
-] [47
+]
+File: pictures/october.png Graphic file (type png)
+ <use pictures/october.png>
+Package luatex.def Info: pictures/october.png used on input line 230.
+(luatex.def)             Requested size: 145.60106pt x 136.5762pt.
+ [47
 
 ] [48
 
-] [49
+]
+[49
 
 ] [50
 
@@ -1426,45 +1448,45 @@ Package luatex.def Info: pictures/october.png used on input line 218.
 
 ] [52
 
+] [53
+
+] [54
+
+] [55
+
+] [56
+
 ]
-<pictures/nov_dec.png, id=1429, 541.02126pt x 241.90375pt>
+<pictures/nov_dec.png, id=1534, 541.02126pt x 241.90375pt>
 File: pictures/nov_dec.png Graphic file (type png)
 
 <use pictures/nov_dec.png>
-Package luatex.def Info: pictures/nov_dec.png used on input line 247.
+Package luatex.def Info: pictures/nov_dec.png used on input line 259.
 (luatex.def)             Requested size: 182.0956pt x 81.41936pt.
- [53
+ [57
 
 <./pictures/nov_dec.png>]
 File: pictures/nov_dec.png Graphic file (type png)
 
 <use pictures/nov_dec.png>
-Package luatex.def Info: pictures/nov_dec.png used on input line 247.
+Package luatex.def Info: pictures/nov_dec.png used on input line 259.
 (luatex.def)             Requested size: 182.0956pt x 81.41936pt.
- [54
+ [58
 
 ]
 File: pictures/nov_dec.png Graphic file (type png)
  <use pictures/nov_dec.png>
-Package luatex.def Info: pictures/nov_dec.png used on input line 247.
+Package luatex.def Info: pictures/nov_dec.png used on input line 259.
 (luatex.def)             Requested size: 182.0956pt x 81.41936pt.
- [55
+ [59
 
 ]
 File: pictures/nov_dec.png Graphic file (type png)
 
 <use pictures/nov_dec.png>
-Package luatex.def Info: pictures/nov_dec.png used on input line 247.
+Package luatex.def Info: pictures/nov_dec.png used on input line 259.
 (luatex.def)             Requested size: 182.0956pt x 81.41936pt.
- [56
-
-] [57
-
-] [58
-
-] [59
-
-] [60
+ [60
 
 ] [61
 
@@ -1472,13 +1494,21 @@ Package luatex.def Info: pictures/nov_dec.png used on input line 247.
 
 ] [63
 
+] [64
+
+] [65
+
+] [66
+
+] [67
+
 ]
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 318.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 330.
 (load luc: /Users/anjaliagrawal/Library/texlive/2017/texmf-var/luatex-cache/gene
-ric/fonts/otl/lmsans10-oblique.luc) [64
+ric/fonts/otl/lmsans10-oblique.luc) [68
 
-</usr/local/texlive/2017/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf>] [65
+</usr/local/texlive/2017/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf>] [69
 
 
 ]
@@ -1491,25 +1521,25 @@ ric/fonts/otl/lmsans10-oblique.luc) [64
 \tf@snm=\write8
 
 \openout8 = slides.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 320.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 320.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 332.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 332.
  (./slides.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 320.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 320.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 332.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 332.
 Package rerunfilecheck Info: File `slides.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 
 Here is how much of LuaTeX's memory you used:
- 23891 strings out of 494481
+ 23925 strings out of 494481
  100000,662416 words of node,token memory allocated
- 4643 words of node memory still in use:
-   37 hlist, 9 vlist, 6 rule, 32 disc, 8 local_par, 116 glue, 24 kern, 23 penalt
-y, 316 glyph, 81 attribute, 59 glue_spec, 81 attribute_list, 3 write, 2 pdf_dest
+ 4590 words of node memory still in use:
+   37 hlist, 9 vlist, 6 rule, 30 disc, 8 local_par, 116 glue, 25 kern, 23 penalt
+y, 310 glyph, 81 attribute, 59 glue_spec, 81 attribute_list, 3 write, 2 pdf_dest
 , 44 pdf_colorstack nodes
-   avail lists: 1:8,2:962,3:336,4:136,5:222,6:1491,7:741,8:127,9:364,10:17,11:13
-0
- 26671 multiletter control sequences out of 65536+600000
+   avail lists: 1:8,2:962,3:336,4:136,5:222,6:1497,7:741,8:127,9:364,10:17,11:12
+8
+ 26673 multiletter control sequences out of 65536+600000
  59 fonts using 4591359 bytes
  58i,14n,74p,771b,977s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmsans10-oblique.ot
@@ -1519,10 +1549,10 @@ tf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmsans10-regular
 ar.otf></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/m
 sam10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbol
 s/msam7.pfb>
-Output written on slides.pdf (65 pages, 540930 bytes).
+Output written on slides.pdf (69 pages, 547451 bytes).
 
-PDF statistics: 1820 PDF objects out of 2073 (max. 8388607)
- 1699 compressed objects within 17 object streams
- 137 named destinations out of 1000 (max. 131072)
+PDF statistics: 1925 PDF objects out of 2073 (max. 8388607)
+ 1799 compressed objects within 18 object streams
+ 145 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
