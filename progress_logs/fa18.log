@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  21 DEC 2018 22:25
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  21 DEC 2018 22:34
  restricted system commands enabled.
 **fa18.tex
 (./fa18.tex
@@ -35,7 +35,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.159 seconds
+luaotfload | main : initialization completed in 0.161 seconds
 Babel <3.10> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -1671,7 +1671,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
  []
 
 
-Overfull \hbox (6.4606pt too wide) in paragraph at lines 22--22
+Overfull \hbox (6.4606pt too wide) in paragraph at lines 20--20
 []\TU/lmr/bx/n/14.4 Back-ground Phe-nom-ena (and some buz-zwords) 
  []
 
@@ -1683,10 +1683,10 @@ File: ../pictures/average_hourly_prices.png Graphic file (type png)
 
 <use ../pictures/average_hourly_prices.png>
 Package luatex.def Info: ../pictures/average_hourly_prices.png used on input lin
-e 33.
+e 31.
 (luatex.def)             Requested size: 418.26358pt x 285.94933pt.
 
-Overfull \hbox (88.26358pt too wide) in paragraph at lines 33--34
+Overfull \hbox (88.26358pt too wide) in paragraph at lines 31--32
 [][] 
  []
 
@@ -1694,28 +1694,28 @@ Overfull \hbox (88.26358pt too wide) in paragraph at lines 33--34
 ric/fonts/otl/lmroman7-regular.luc)(load luc: /Users/anjaliagrawal/Library/texli
 ve/2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc)
 [2<../pictures/average_hourly_prices.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
 (load luc: /Users/anjaliagrawal/Library/texlive/2017/texmf-var/luatex-cache/gene
 ric/fonts/otl/lmroman8-regular.luc)
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.00012pt on input line 44.
+(Font)              scaled to size 8.00012pt on input line 42.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.00009pt on input line 44.
+(Font)              scaled to size 6.00009pt on input line 42.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.99988pt on input line 44.
+(Font)              scaled to size 7.99988pt on input line 42.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.99991pt on input line 44.
+(Font)              scaled to size 5.99991pt on input line 42.
 (load luc: /Users/anjaliagrawal/Library/texlive/2017/texmf-var/luatex-cache/gene
 ric/fonts/otl/lmroman6-regular.luc)
-Underfull \hbox (badness 10000) in paragraph at lines 44--46
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
@@ -1723,22 +1723,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
 File: ../pictures/architecture.png Graphic file (type png)
 
 <use ../pictures/architecture.png>
-Package luatex.def Info: ../pictures/architecture.png used on input line 86.
+Package luatex.def Info: ../pictures/architecture.png used on input line 84.
 (luatex.def)             Requested size: 418.25298pt x 248.1043pt.
 
-Overfull \hbox (120.25294pt too wide) in paragraph at lines 86--87
+Overfull \hbox (120.25294pt too wide) in paragraph at lines 84--85
 [][] 
  []
 
 [5<../pictures/architecture.png>] [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 109.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 109.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
  (./fa18.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 109.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 109.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 107.
 Package rerunfilecheck Info: File `fa18.out' has not changed.
 (rerunfilecheck)             Checksum: D6F391CED41044E24719C6150344ABDB;798.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
 )
 
 Here is how much of LuaTeX's memory you used:
@@ -1747,10 +1747,10 @@ Here is how much of LuaTeX's memory you used:
  531 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 5 glue, 1 kern, 9 attribute, 60 glue_spec, 9 attrib
 ute_list, 1 write nodes
-   avail lists: 1:15,2:338,3:119,4:24,5:220,6:2762,7:676,8:24,9:139,10:13,11:243
+   avail lists: 1:15,2:338,3:117,4:24,5:220,6:2878,7:699,8:23,9:136,10:13,11:251
 
  39237 multiletter control sequences out of 65536+600000
- 96 fonts using 18085471 bytes
+ 96 fonts using 18085535 bytes
  65i,8n,86p,1082b,619s stack positions out of 5000i,500n,10000p,200000b,100000s
 
 warning  (pdf backend): unreferenced destination with name 'Hfootnote.3'
@@ -1767,7 +1767,7 @@ odern-math.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmro
 man10-regular.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/l
 mroman10-bold.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/l
 mroman12-bold.otf>
-Output written on fa18.pdf (6 pages, 172172 bytes).
+Output written on fa18.pdf (6 pages, 172153 bytes).
 
 PDF statistics: 167 PDF objects out of 1000 (max. 8388607)
  129 compressed objects within 2 object streams
