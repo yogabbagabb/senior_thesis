@@ -37,7 +37,19 @@ First, let us identify hours from the beginning of a day (ie 12:00 AM) to the da
 
 
 \section{Thesis Summary (Planned Intellectual Contribution)} 
-A thesis ideally expands upon or redistills known findings of an intellectual field in a more revealing form. I hope to redistill existing technologies in IOT, serverless computing and machine learning in the form of a software framework. To my knowledge, there is no framework like the one I intend to create: \\
+A thesis ideally expands upon or redistills known findings of an intellectual field in a more revealing form. I feel that my thesis does both. In what follows, I explain my thesis's relationship to both fronts.
+
+\breathe \\
+\textit{Expansion} \\
+
+Let us first identify this thesis's intellectual space. The intellectual field that it falls into is, perhaps, best identified as the intersection of ``electricity price forecasting'' and ``smart home technology.'' To my knowledge, the only research into home appliance activation at optimal times has thus far been made by my advisor, Richard Sowers.  \\
+
+Since Sowers' previous work on the topic represents the current state of the field, my contribution to the field is equivalent to my expansion of Sowers' previous work. Sowers has previously made an architecture that can optimally activate a single device, with some limited success (there are front end malfunctions and device credentials must be hard coded, so that the architecture is more a demo than a publically accessible framework). At an \textit{abstract} level, my goal is to, thus, make the architecture scalable for several clients. My thesis will, thus, essentially offer findings on What form such an architecture must have to be functional. It may be the case that in this intersection of ``electricity price forecasting'' and ``smart home technology'', a new architectural pattern of microservices is used.
+
+\breathe \\
+\textit{Redistillation} \\
+
+I hope to redistill existing technologies in IOT, serverless computing and machine learning in the form of a software framework. To my knowledge, there is no framework like the one I intend to create: \\
 
 This framework allows home appliance users to subscribe their smart\footnote{I assume that the appliance already has an imbedded controller that can turn on the appliance after receiving an authenticated post request} electronic
 appliances  to be activated at ``optimal times.'' An optimal time is defined in more detail in the background section. \footnote{Informally, an optimal time is a point in time beginning a time interval over which it is cheapest for a home user to run an appliance. This time interval falls between 11 PM to 5 AM.} \\
